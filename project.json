@@ -44,7 +44,8 @@
       },
       "configurations": {
         "development": {
-          "buildTarget": "nx-test:build:development"
+          "buildTarget": "nx-test:build:development",
+          "inspect": "0.0.0.0:9228"
         },
         "production": {
           "buildTarget": "nx-test:build:production"
